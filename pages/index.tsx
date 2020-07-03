@@ -1,6 +1,8 @@
-import Head from 'next/head'
+import Head from "next/head"
+import React from "react"
 
-export default function Home() {
+/* eslint-disable import/no-default-export */
+export default function Home(): JSX.Element {
   return (
     <div className="container">
       <Head>
@@ -54,7 +56,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
@@ -207,3 +209,5 @@ export default function Home() {
     </div>
   )
 }
+
+/* eslint-enable import/no-default-export */
