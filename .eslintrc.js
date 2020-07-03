@@ -1,7 +1,7 @@
 module.exports = {
-  parser: `@typescript-eslint/parser`,
+  parser: "@typescript-eslint/parser",
   parserOptions: {
-    project: `./tsconfig.json`,
+    project: "./tsconfig.json",
   },
   plugins: [
     "@typescript-eslint",
@@ -96,6 +96,6 @@ module.exports = {
     react: {
       version: "detect", // Tells eslint-plugin-react to automatically detect the version of React to use
     },
-    "import/resolver": "webpack",
+    // "import/resolver": "webpack",
   },
 }
