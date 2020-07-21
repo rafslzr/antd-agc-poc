@@ -9,3 +9,5 @@ server-dev.js
 **/*.test.ts
 **/*.test.tsx
 apollo-link.ts
+
+pages/_app.tsx
