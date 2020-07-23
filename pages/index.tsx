@@ -1,6 +1,6 @@
 import React from "react"
 
-import { App } from "./app/app"
+import { App } from "../pages-components/app"
 
 /* eslint-disable import/no-default-export */
 export default function Home(): JSX.Element {
