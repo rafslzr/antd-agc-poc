@@ -91,6 +91,11 @@ module.exports = {
     {
       files: ["*.test.ts", "*.test.tsx"],
     },
+    {
+      // exclusively for nextjs' page navigation
+      files: ["pages/**/*.tsx"],
+      rules: { "import/no-default-export": "off" },
+    },
   ],
   settings: {
     react: {
